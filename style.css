@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#guess-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+}
+
+.letter-box {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    margin: 2px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.present {
+    background-color: yellow;
+    color: black;
+}
+
+.absent {
+    background-color: grey;
+    color: white;
+}
+
+.attempt-row {
+    margin-bottom: 5px;
+}
+
+#score-history, #eligible-words {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    max-height: 150px;
+    text-align: left;
+}

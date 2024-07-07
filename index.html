@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle-like Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <input type="text" id="guess-input" placeholder="Enter your guess">
+        <button id="submit-guess">Submit Guess</button>
+        <button id="restart-game">Restart Game</button>
+        <button id="view-history">View History</button> <!-- Ensure this is added -->
+        <button id="clear-history">Clear History</button> <!-- Ensure this is added -->
+        <div id="feedback"></div>
+        <div id="user-score">Incorrect Tries: 0</div> <!-- Ensure this is present -->
+        <div id="eligible-words">Eligible words will appear here</div>
+        <div id="score-history" style="display:none;"></div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
